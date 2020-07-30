@@ -49,6 +49,6 @@ a) `roslaunch px4 aeroBITS.launch`
 
 3.) Instructions to launch flipkart world with more than 3 gates
 
-4.) Update Camera position on drone
+4.) Update Camera position on drone- Some issues
 
 5.) Make readme clean
