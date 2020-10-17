@@ -33,7 +33,7 @@ def getImageData():
 
     rospy.init_node('imageData', anonymous=True)
 
-    rospy.Subscriber("/aeroBITS/usb_cam/image_raw", Image, printImageData)
+    rospy.Subscriber("/aeroBITS_sensors/usb_cam/image_raw", Image, printImageData)
 
     # spin() simply keeps python from exiting until this node is stopped
     rospy.spin()

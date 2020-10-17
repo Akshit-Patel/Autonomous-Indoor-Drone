@@ -116,7 +116,7 @@ class Px4Controller:
 
         target_raw_pose.type_mask = PositionTarget.IGNORE_VX + PositionTarget.IGNORE_VY + PositionTarget.IGNORE_VZ \
                                     + PositionTarget.IGNORE_AFX + PositionTarget.IGNORE_AFY + PositionTarget.IGNORE_AFZ \
-                                    + PositionTarget.FORCE
+                                    + PositionTarget.FORCE + PositionTarget.IGNORE_YAW + PositionTarget.IGNORE_YAW_RATE
 
         target_raw_pose.yaw = yaw
         target_raw_pose.yaw_rate = yaw_rate
