@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# @name 3DR Iris Quadrotor SITL
+#
+# @type Quadrotor Wide
+#
+# @maintainer Julian Oes <julian@oes.ch>
+#
+
+sh /etc/init.d-posix/10016_iris

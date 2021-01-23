@@ -20,7 +20,7 @@
       <kinematic>0</kinematic>
     </link>
     <link name='base_link'>
-      <pose frame=''>0 0 0 0 -0 0</pose>
+      <pose frame=''>-0.011698 0.00982 0 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <mass>1.5</mass>
@@ -39,11 +39,11 @@
       <enable_wind>0</enable_wind>
       <kinematic>0</kinematic>
       <visual name='base_link_inertia_visual'>
-        <pose frame=''>3 -0.8 0 0 -0 0</pose>
+        <pose frame=''>0 0.9 0 0 -0 0</pose>
         <geometry>
           <mesh>
             <scale>1.5 1.5 1.5</scale>
-            <uri>model://rotors_description/meshes/aeroBITS2.stl</uri>
+            <uri>model://rotors_description/meshes/aeroBITS_without_legs-stl.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -65,10 +65,10 @@
       <collision name='base_link_inertia_collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
-        <pose frame=''>0 -0.015 0.15 0 -0 0</pose>
+        <pose frame=''>0 -0.005 0.12 0 -0 0</pose>
         <geometry>
           <box>
-            <size>0.27 0.27 0.32</size>
+            <size>0.27 0.22 0.25</size>
           </box>
         </geometry>
         <surface>
@@ -119,7 +119,7 @@
       </collision>
     </link>
     <link name='rotor_0'>
-      <pose frame=''>0.277531 -0.321655 0.285581 0 -0 0</pose>
+      <pose frame=''>0.250561 -0.275667 0.175071 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <mass>0.005</mass>
@@ -213,7 +213,7 @@
       </collision>
     </link>
     <link name='rotor_1'>
-      <pose frame=''>-0.319491 0.297101 0.281546 0 -0 0</pose>
+      <pose frame=''>-0.314016 0.290594 0.175648 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <mass>0.005</mass>
@@ -307,7 +307,7 @@
       </collision>
     </link>
     <link name='rotor_2'>
-      <pose frame=''>0.288179 0.296351 0.279804 0 -0 0</pose>
+      <pose frame=''>0.253972 0.289718 0.177536 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <mass>0.005</mass>
@@ -401,7 +401,7 @@
       </collision>
     </link>
     <link name='rotor_3'>
-      <pose frame=''>-0.328811 -0.317597 0.284454 0 -0 0</pose>
+      <pose frame=''>-0.314547 -0.276214 0.173224 0 -0 0</pose>
       <inertial>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <mass>0.005</mass>
