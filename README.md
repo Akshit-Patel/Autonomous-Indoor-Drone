@@ -1,5 +1,5 @@
 # Autonomous-Indoor-Drone
-This repository aims at building a low cost drone which is capable of lifting 1kg package and pass through wireframes while avoiding obstacles. This for created as part of competition conducted by Flipkart.
+This repository aims at building a low cost drone which is capable of lifting 1kg package and pass through wireframes while avoiding obstacles. This for created as part of competition conducted by Flipkart. Main idea was based on depth camera and normal RGB camera, stereo was also tested. Depth camera to avoid obstacles and RGB camera to get location of wireframe with help of VIO. This still requires a development and it's not yet complete.
 
 ![Featured](images/featured.png)
 
@@ -145,23 +145,27 @@ Drone in simulation for all cases can also be controlled with QGroundControl, al
 
 **To Do -**
 
-1.) More detailed instructions on launching Firmware
+1.) More detailed instructions on setting up Firmware
 
-2.) Change Name of stl file
+2.) Change names of stl file
 
 3.) Instructions to launch world with more than 3 gates
 
-4.) Update Camera position on drone- Some issues
+4.) Update Camera position on drone- some issues
 
 5.) Make readme clean
 
 6.) Scripts instructions
 
-7.)Script for copy pasting these things
+7.) Script for automating copy pasting
 
 8.) Improving code for navigation through gates
+
 9.) Switching between fast planner to avoid collisions
 
+10.) Adding simulations for static and aerodynamic analysis of drone
+
+11.) Hardware and inclusion of VIO properly
 
 <!-- Imp Notes -
 gui == true , catkin one is with depth camera, rotors description -->
