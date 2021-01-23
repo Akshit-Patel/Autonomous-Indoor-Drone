@@ -1,4 +1,7 @@
 # Autonomous-Indoor-Drone
+This repository aims at building a low cost drone which is capable of lifting 1kg package and pass through wireframes while avoiding obstacles. This for created as part of competition conducted by Flipkart.
+
+![Featured](images/featured.png)
 
 **Instructions to set up avoidance module with stereo camera**
 
@@ -25,6 +28,7 @@ This should launch aeroBITS model with stereo model in empty gazebo world.
 `roslaunch global_planner global_planner_stereo.launch`
 
 **Instructions to test world with Gates**
+![Featured](images/featured2.png)
 
 1.) Copy Following items to firmware as mentioned -
 * `10031_aeroBITS`, `10032_aeroBITS_stereo_camera` from `Simulator/config/` -> `Firmware/ROMFS/px4fmu_common/init.d-posix/`
@@ -60,6 +64,8 @@ Then finally simulation can be run,
 
 **Instructions for setting up obstacle avoidance with depth camera and HKUST fast planner**
 
+![Depth Camera](images/depth.png)
+
 1.) Setup px4_fast_planner as mentioned at - https://github.com/mzahana/px4_fast_planner
 
 2.) Copy Following items as mentioned -
@@ -81,7 +87,7 @@ This should launch a aeroBITS model with depth camera in empty gazebo world.
 
 * `simulator/meshes/grid.stl` to `Firmware/Tools/sitl_gazebo/models/rotors_description/meshes` 
 
-Now run,
+Run,
 
 `roslaunch px4_fast_planner aeroBITS_depth_camera.launch`
 
@@ -118,7 +124,7 @@ b) If `GAZEBO_MODEL_PATH` is correctly setup than you may launch it, and try dra
 
 a) `roslaunch px4 aeroBITS.launch` -->
 
-**QGroundControl Camera Feed**
+**QGroundControl**
 
 Drone in simulation for all cases can also be controlled with QGroundControl, also we can have direct fpv camera feed from drone in QgroundControl. Settings for the same is mentioned here - 
 
@@ -133,6 +139,7 @@ Drone in simulation for all cases can also be controlled with QGroundControl, al
 3.) Select Autodelete files if space issues 
 
 **Notes**
+
 1.) If launching local planner does not launch gazebo window check if in avoidance/avoidance_sitl_mavros.launch 'gui' is argument is set to true.
 
 
