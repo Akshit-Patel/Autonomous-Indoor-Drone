@@ -1,5 +1,5 @@
 # Autonomous-Indoor-Drone
-This repository aims at building a low cost drone which is capable of lifting 1kg package and pass through wireframes while avoiding obstacles. This for created as part of competition conducted by Flipkart. Main idea was based on depth camera and normal RGB camera, stereo was also tested. Depth camera to avoid obstacles and RGB camera to get location of wireframe with help of VIO. This still requires a development and it's not yet complete.
+This repository aims at building a low cost drone which is capable of lifting package and pass through wireframes while avoiding obstacles. This was created as part of a competition conducted by Flipkart. Main idea was based on depth camera and normal RGB camera, stereo was also tested. Depth camera is used to avoid obstacles and RGB camera to get location of wireframe with help of VIO. This still requires a development and it's not yet complete.
 
 ![Featured](images/featured.png)
 
